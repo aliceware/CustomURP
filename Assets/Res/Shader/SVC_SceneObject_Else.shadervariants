@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SVC_SceneObject_Else
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 46f8431caad43334394441221750beb9, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: DOTS_INSTANCING_ON FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADOWS_SHADOWMASK
+          _DEBUG_OFF _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
+        passType: 13
+      - keywords: FOG_LINEAR SHADOWS_SHADOWMASK _DEBUG_OFF _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE
+          _SHADOWS_SOFT
+        passType: 13
+  - first: {fileID: 4800000, guid: d0f2f0afd12754042886f8f46c7b6c5b, type: 3}
+    second:
+      variants:
+      - keywords: FOG_LINEAR LIGHTMAP_ON RO_MS_READ RO_OPT_SUBPASS_LOAD SHADOWS_SHADOWMASK
+          _DEBUG_OFF _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
+        passType: 13
+      - keywords: FOG_LINEAR LIGHTMAP_ON RO_OPT_SUBPASS_LOAD SHADOWS_SHADOWMASK _DEBUG_OFF
+          _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
+        passType: 13
+      - keywords: FOG_LINEAR LIGHTMAP_ON SHADOWS_SHADOWMASK _DEBUG_OFF _MAIN_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
+        passType: 13
+  - first: {fileID: 4800000, guid: 22880f9516ba24ba980943008ef64067, type: 3}
+    second:
+      variants:
+      - keywords: FOG_LINEAR
+        passType: 13
+      - keywords: FOG_LINEAR LOD_FADE_CROSSFADE
+        passType: 13
+  - first: {fileID: 4800000, guid: 837c269f4fdf241a282f6fbe49d42527, type: 3}
+    second:
+      variants:
+      - keywords: DOTS_INSTANCING_ON FOG_LINEAR INSTANCING_ON RO_MS_READ RO_OPT_SUBPASS_LOAD
+          RO_TERRAIN_LOAD _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 0
+      - keywords: DOTS_INSTANCING_ON FOG_LINEAR INSTANCING_ON RO_MS_READ RO_OPT_SUBPASS_LOAD
+          _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 0
+      - keywords: DOTS_INSTANCING_ON FOG_LINEAR INSTANCING_ON RO_OPT_SUBPASS_LOAD
+          RO_TERRAIN_LOAD _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 0
+      - keywords: DOTS_INSTANCING_ON FOG_LINEAR INSTANCING_ON RO_OPT_SUBPASS_LOAD
+          _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 0
+      - keywords: DOTS_INSTANCING_ON FOG_LINEAR INSTANCING_ON _MAIN_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 0

@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SVC_Avatar
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 5349a61cbe4b7854abb1ad451d779ddc, type: 3}
+    second:
+      variants:
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF _VFX_DISSOLVE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF _VFX_DISSOLVE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF _VFX_FROZEN
+        passType: 13
+      - keywords: _DEBUG_OFF
+        passType: 13
+      - keywords: _DEBUG_OFF _VFX_DISSOLVE
+        passType: 13
+      - keywords: _DEBUG_OFF _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: _DEBUG_OFF _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD _VFX_DISSOLVE
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD_MS
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _VFX_DISSOLVE
+        passType: 14
+      - keywords: _VFX_DISSOLVE
+        passType: 14
+  - first: {fileID: 4800000, guid: 865b296ece031694ebe43ad8d7350be5, type: 3}
+    second:
+      variants:
+      - keywords: RO_OPT_SUBPASS_LOAD _COLORGRADE _DEBUG_OFF
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _COLORGRADE _DEBUG_OFF _VFX_DISSOLVE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _COLORGRADE _DEBUG_OFF _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _COLORGRADE _DEBUG_OFF _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _COLORGRADE _DEBUG_OFF
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _COLORGRADE _DEBUG_OFF _VFX_DISSOLVE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _COLORGRADE _DEBUG_OFF _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _COLORGRADE _DEBUG_OFF _VFX_FROZEN
+        passType: 13
+      - keywords: _COLORGRADE
+        passType: 13
+      - keywords: _COLORGRADE _DEBUG_OFF
+        passType: 13
+      - keywords: _COLORGRADE _DEBUG_OFF _VFX_DISSOLVE
+        passType: 13
+      - keywords: _COLORGRADE _DEBUG_OFF _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: _COLORGRADE _DEBUG_OFF _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _COLORGRADE
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD _COLORGRADE _VFX_DISSOLVE
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _COLORGRADE
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _COLORGRADE _VFX_DISSOLVE
+        passType: 14
+      - keywords: _COLORGRADE
+        passType: 14
+      - keywords: _COLORGRADE _VFX_DISSOLVE
+        passType: 14
+  - first: {fileID: 4800000, guid: 0415dffb59cc5774e941a51f61219653, type: 3}
+    second:
+      variants:
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF _FACE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF _FACE _VFX_DISSOLVE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF _FACE _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _DEBUG_OFF _FACE _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF _FACE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF _FACE _VFX_DISSOLVE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF _FACE _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _DEBUG_OFF _FACE _VFX_FROZEN
+        passType: 13
+      - keywords: _DEBUG_OFF _FACE
+        passType: 13
+      - keywords: _DEBUG_OFF _FACE _VFX_DISSOLVE
+        passType: 13
+      - keywords: _DEBUG_OFF _FACE _VFX_DISSOLVE _VFX_FROZEN
+        passType: 13
+      - keywords: _DEBUG_OFF _FACE _VFX_FROZEN
+        passType: 13
+      - keywords: _FACE
+        passType: 13
+      - keywords: RO_OPT_SUBPASS_LOAD _FACE
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD _FACE _VFX_DISSOLVE
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _FACE
+        passType: 14
+      - keywords: RO_OPT_SUBPASS_LOAD_MS _FACE _VFX_DISSOLVE
+        passType: 14
+      - keywords: _FACE
+        passType: 14
+      - keywords: _FACE _VFX_DISSOLVE
+        passType: 14
