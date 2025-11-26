@@ -1,4 +1,4 @@
-Shader "Ciconia/SSS Skin Opaque"
+Shader "Ciconia Studio/CS_Skin/URP/SSS Skin (Specular setup) Opaque"
 {
 	Properties
 	{

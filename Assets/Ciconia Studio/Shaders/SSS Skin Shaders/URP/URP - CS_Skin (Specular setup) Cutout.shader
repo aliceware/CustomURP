@@ -1,4 +1,4 @@
-Shader "Ciconia/SSS Skin Cutout"
+Shader "Ciconia Studio/CS_Skin/URP/SSS Skin (Specular setup) Cutout"
 {
 	Properties
 	{
