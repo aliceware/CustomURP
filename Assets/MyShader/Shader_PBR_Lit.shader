@@ -32,7 +32,7 @@ Shader "Custom/PBR/Lit"
 //            Tags {"LightMode" = "UniversalForward"}
             HLSLPROGRAM
             // 只包含光照计算文件即可
-            #include "Assets/Shader/Common/PBRLitPass.hlsl"
+            #include "Assets/MyShader/Common/PBRLitPass.hlsl"
             
             // CBUFFER_START(UnityPerMaterial)
             //     float4 _MainTex_ST;
