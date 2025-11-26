@@ -7,14 +7,16 @@ Shader "Custom/PBR/Lit"
         
         [Title(BaseColor)]
         [Sub(PBR)]_BaseColor ("BaseColor", Color) = (1, 1, 1, 1)
-        [Sub(PBR)]_BaseTex ("BaseTex", 2D) = "white" {}
+        //[Sub(PBR)]_BaseTex ("BaseTex", 2D) = "white" {}
         
-        [Sub(PBR)]_ORMTex ("ORMTex", 2D) = "white" {}
+        // [Sub(PBR)]_ORMTex ("ORMTex", 2D) = "white" {}
         [Sub(PBR)]_Metallic("Metallic", Range(0, 1)) = 1.0
         [Sub(PBR)]_Roughness("Roughness", Range(0, 1)) = 1.0
 
         
-        
+        // [Sub(PBR)]_IrrandianceCube("Irrandiance Map",Cube) = "Skybox" {}
+        [Sub(PBR)]_IBLPrefilteredSpecularMap("IBL Prefiltered Specular Map",Cube) = "Skybox" {}
+        [Sub(PBR)]_BRDFLut("BRDF Lut",2D) = "white" {}
     }
     SubShader
     {

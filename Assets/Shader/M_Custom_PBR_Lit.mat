@@ -23,8 +23,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BRDFLut:
+        m_Texture: {fileID: 2800000, guid: 51eece1e49975534bae2e682efddcaca, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IBLPrefilteredSpecularMap:
+        m_Texture: {fileID: 8900000, guid: e5395af0cdc1e8a4abe870ccfb97201d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IrrandianceCube:
+        m_Texture: {fileID: 8900000, guid: a621c775e1dee7c4f829512ad2699da5, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ORMTex:
@@ -33,9 +45,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Metallic: 1
+    - _LightIntensity: 6.56
+    - _Metallic: 0
     - _Roughness: 0
     - _pbr: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DirectionalLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DirectionalLightDirection: {r: 1, g: 1, b: -1, a: 0}
   m_BuildTextureStacks: []
