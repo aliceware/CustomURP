@@ -1,4 +1,4 @@
-Shader "Custom/PBR/Unlit"
+Shader "Custom/Traditional/Unlit"
 {
     Properties
     {
@@ -20,7 +20,7 @@ Shader "Custom/PBR/Unlit"
 //            Tags {"LightMode" = "UniversalForward"}
             HLSLPROGRAM
 
-            #include "Assets/Shader/UnlitPass.hlsl"
+            #include "Assets/Shader/Common/UnlitPass.hlsl"
             
             // CBUFFER_START(UnityPerMaterial)
             //     float4 _MainTex_ST;
